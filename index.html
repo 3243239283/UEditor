@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度编辑器示例</title>
+	<!-- 自定义样式 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- 为使IE6、7、8版本浏览器兼容css3样式，引入下面代码 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- layer测试 -->
+	<a href="javasvript:" id="btn">点击测试</a>
+	
+	<!-- UEditor测试 -->
+    <!-- 加载编辑器的容器 -->
+    <script id="container" name="content" type="text/plain">
+        这里写你的初始化内容
+    </script>
+
+
+
+	<!-- 引入require模块，关联../js/index.js -->
+	<script src="plugin/requirejs/require.js"></script>
+    <script src="js/require-config.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
